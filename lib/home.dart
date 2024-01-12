@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -14,7 +12,9 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Google SignIn'),
+        title: const Text(
+          'Google SignIn',
+        ),
         centerTitle: true,
       ),
       body: Center(
